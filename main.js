@@ -11,10 +11,10 @@ function meuScopo() {
         console.log(alt);
         console.log(typeof (alt));
 
-        if (isNaN(peso) || peso == '') {
+        if (isNaN(peso) || peso == '' ) {
             saida.innerHTML = ('Peso Inválido')
 
-        } else if (isNaN(alt) || alt == '') {
+        } else if (isNaN(alt) || alt == '' || alt > 3) {
             saida.innerHTML = ('Altura Inválida')
 
         }
