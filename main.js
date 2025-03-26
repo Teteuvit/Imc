@@ -11,7 +11,7 @@ function meuScopo() {
         console.log(alt);
         console.log(typeof (alt));
 
-        if (isNaN(peso) || peso == '' ) {
+        if (isNaN(peso) || peso == '' || peso > 500 ) {
             saida.innerHTML = ('Peso Inválido')
 
         } else if (isNaN(alt) || alt == '' || alt > 3) {
